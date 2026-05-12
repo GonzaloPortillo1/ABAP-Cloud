@@ -40,7 +40,9 @@ CLASS zcl_estructura_gpm IMPLEMENTATION.
 
          ls_cliente3-id = 8.
 
-      out->write( ls_cliente3 ).
+     " out->write( ls_cliente3 ).
+
+
 
   ENDMETHOD.
 
